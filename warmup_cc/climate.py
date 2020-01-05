@@ -33,7 +33,7 @@ import homeassistant.helpers.config_validation as cv
 from homeassistant.util import Throttle
 from homeassistant.util.temperature import convert as convert_temperature
 
-DOMAIN = "warmup"
+DOMAIN = "warmup_cc"
 CONFIG_SCHEMA = vol.Schema(
     {
         DOMAIN: vol.Schema(
